@@ -1,0 +1,118 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>901-百亿超跑俱乐部</title>
+<link type="text/css" rel="stylesheet" href="css/jquery.galleryview-3.0-dev.css" />
+</head>
+<body>
+
+<center>
+<ul id="myGallery">
+    <li>
+        <img src="pic-t/2014-05-01-14-34-00.jpg"
+             alt="Bajiao Amusement Park"
+             data-description="八角游乐园 2014-05-01 14:34" />
+    </li>
+    <li>
+        <img src="pic-t/2014-05-10-13-37-00.jpg"
+             alt="Is He Still There?!"
+             data-description="2014-05-10 13:37" />
+    </li>
+    <li>
+        <img src="pic-t/2014-06-07-11-51-00.jpg"
+             alt="blue sky"
+             data-description="新龙城-二期 2014-06-07 11:51" />
+    </li>
+    <li>
+        <img src="pic-t/2014-09-15-22-58-00.jpg"
+             alt="Cherry sweeping the floor"
+             data-description="扫地 2014-09-15 22:58" />
+    </li>
+    <li>
+        <img src="pic-t/2014-09-15-22-59-01.jpg"
+             alt="" data-description="" />
+    </li>
+    <li>
+        <img src="pic-t/2014-09-15-22-59-02.jpg"
+             alt="Day of Youth" data-description="" />
+    </li>
+    <li>
+        <img src="pic-t/2014-09-18-01-01-01.jpg"
+             alt="Sunbathing Underwater" data-description="" />
+    </li>
+    <li>
+        <img src="pic-t/2014-09-18-01-01-02.jpg"
+             alt="Untitled" data-description="" />
+    </li>
+    <li>
+        <img src="pic-t/2014-09-25-20-18-01.jpg"
+             alt="Long legs" data-description="长腿儿" />
+    </li>
+    <li>
+        <img src="pic-t/2014-11-16 19-57-01.jpg"
+             alt="By The Wind of Chance" data-description="" />
+    </li>
+    <li>
+        <img src="pic-t/2015-02-26 20-43-01.jpg"
+             alt="a household in the same building"
+             data-description="同楼某户 2015-02-26 20:43" />
+    </li>
+    <li>
+        <img src="pic-t/2015-03-14 21-42-01.jpg"
+             alt="living room"
+             data-description="客厅 2015-03-14 21:42" />
+    </li>
+    <li>
+        <img src="pic-t/2015-03-22 18-37-01.jpg"
+             alt="Over old trees wreathed with rotten vines fly evening crows"
+             data-description="枯藤老树昏鸦 2015-03-22 18:37" />
+    </li>
+    <li>
+        <img src="pic-t/2015-03-23 23-18-01.jpg"
+             alt="Time" data-description="" />
+    </li>
+    <li>
+        <img src="pic-t/2015-03-28 20-02-01.jpg"
+             alt="Lone Tree Yellowstone" data-description="" />
+    </li>
+    <li>
+        <img src="pic-t/2015-03-28 20-02-02.jpg"
+             alt="Is He Still There?!" data-description="" />
+    </li>
+    <li>
+        <img src="pic-t/2015-08-15 22-30-01.jpg"
+             alt="Noni Nectar For Green Gecko" data-description="" />
+    </li>
+    <li>
+        <img src="pic-t/2015-08-15 22-30-02.jpg"
+             alt="Goodbye"
+             data-description="再见 2015-08-15 22:30" />
+    </li>
+</ul>
+</center>
+<script src="js/jquery.min.js"></script>
+<script src="js/jquery.timers-1.2.js"></script>
+<script src="js/jquery.easing.1.3.js"></script>
+<script src="js/jquery.galleryview-3.0-dev.js"></script>
+
+<script>
+
+	$(function(){
+        var height = document.body.clientHeight -55,
+            width = document.body.clientWidth - 10;
+        var galleryList = $('#myGallery').galleryView({
+            panel_width:width,
+            panel_height:height,
+            frame_gap:5,
+            enable_overlays:true,
+            panel_scale:"fit"
+        });
+        window.galleryList = galleryList
+
+	});
+
+    </script>
+
+</body>
+</html>
